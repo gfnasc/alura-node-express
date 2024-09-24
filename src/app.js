@@ -1,4 +1,11 @@
 import express from "express"
+import dbConnect from "./config/dbConnect.js"
+
+const db = await dbConnect()
+
+db.on('error', (error) => {
+  console.error(error)
+})
 
 const app = express()
 app.use(express.json())
