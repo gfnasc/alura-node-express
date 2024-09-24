@@ -1,7 +1,6 @@
+import "dotenv/config"
 import app from "./src/app.js"
 
-const PORT = 3001
-
-app.listen(PORT, () => {
+app.listen(process.env.APP_PORT, () => {
   console.log("200 OK")
 })

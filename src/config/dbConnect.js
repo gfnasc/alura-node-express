@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 
 async function dbConnect() {
-  mongoose.connect('mongodb+srv://gfnasc:aluraexpressmongo@bookstore.mipmv.mongodb.net/books?retryWrites=true&w=majority&appName=bookstore')
+  mongoose.connect(process.env.MONGO_CONNECTION)
   return mongoose.connection
 }
 
