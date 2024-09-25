@@ -1,7 +1,3 @@
-Aqui está um exemplo de **README.md** para a sua API de Livraria Online:
-
----
-
 # 📚 BookStore API
 
 Esta é uma API RESTful para gerenciar livros em uma livraria online. A API permite que você adicione, edite, remova e liste livros, além de fornecer recursos para autenticação de usuários e gerenciamento de favoritos.
