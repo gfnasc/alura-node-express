@@ -1,4 +1,4 @@
-import { author } from "../src/models/Author.js"
+import author from "../src/models/Author.js"
 
 class AuthorController {
   static async list (req, res) {
